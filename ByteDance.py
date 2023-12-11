@@ -1,7 +1,7 @@
 # ---encoding:utf-8---
 # @Time    : 2023/12/11 16:16
 # @Author  : 辉
-# @Email   ：1061516531@qq.com
+# @Email   ：XXXXXX@qq.com
 # @File    : ByteDance.py
 # @Project : myByteDanceTest
 # @Software: PyCharm
@@ -57,7 +57,7 @@ findElement(driver, By.CLASS_NAME, 'ud__checkbox__input').click()
 findElement(driver, By.XPATH, '//button[@data-test="login-phone-next-btn"]').click()
 time.sleep(5)
 # 密码框
-findElement(driver, By.XPATH, '//*[@placeholder="请输入密码"]').send_keys('huang199597')
+findElement(driver, By.XPATH, '//*[@placeholder="请输入密码"]').send_keys('XXXXXX')
 # 点击下一步
 findElement(driver, By.XPATH, '//button[@data-test="login-pwd-next-btn"]').click()
 
